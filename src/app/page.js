@@ -2,6 +2,7 @@ import Image from "next/image";
 import Banner from "./components/banner/Banner";
 import Browse from "./components/browse/Browse";
 import Product from "./components/product/Product";
+import Explor from "./components/explor/Explor";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
  <Banner />
  <Browse/>
  <Product/>
+ <Explor/>
  </>
   );
 }

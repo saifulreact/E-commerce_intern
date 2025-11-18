@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
@@ -20,10 +22,10 @@ const Navbar = () => {
       </div>
             <div className="main_div ">
             <ul className='flex gap-[75px] font-poppin  '>
-                <li  className='text-[#000000] font-medium'><Link  href="#">Home</Link></li>
-                <li className='text-[#000000] font-medium'><Link href="#">Shop</Link></li>
-                <li className='text-[#000000] font-medium'><Link  href="#">About</Link></li>
-                <li className='text-[#000000] font-medium'><Link  href="#">Contact</Link></li>
+                <li  className='text-[#000000] font-medium'><Link  href="/">Home</Link></li>
+                <li className='text-[#000000] font-medium'><Link href="/shop">Shop</Link></li>
+                <li className='text-[#000000] font-medium'><Link  href="/about">About</Link></li>
+                <li className='text-[#000000] font-medium'><Link  href="/contact">Contact</Link></li>
             </ul>
         </div>
 
